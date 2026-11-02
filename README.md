@@ -4,6 +4,8 @@ Train and evaluate a **multilingual dense retriever** with contrastive learning 
 
 The goal is a small, honest search-quality loop: change the model or the training data → measure nDCG / MRR / Recall on judged queries → keep what helps.
 
+A detailed walkthrough of every concept and file is in [docs/PROJECT_EXPLANATION.md](docs/PROJECT_EXPLANATION.md).
+
 ## What's inside
 
 | Component | File | What it does |
@@ -19,6 +21,8 @@ The goal is a small, honest search-quality loop: change the model or the trainin
 ## Quickstart
 
 ```bash
+git clone https://github.com/lipsapriyadarsinee101-oss/Dense-Retrieval-RAG-Lab-Project-Explanation.git
+cd Dense-Retrieval-RAG-Lab-Project-Explanation
 pip install -r requirements.txt
 pytest -q                      # runs offline in under a minute
 
